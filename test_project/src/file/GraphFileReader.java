@@ -40,7 +40,7 @@ public class GraphFileReader {
                 edges.add(e);
                 
                 vertex.add(newEdge.substring(0, 1));
-                vertex.add(newEdge.substring(0, 1));                
+                vertex.add(newEdge.substring(1, 2));                
             }
             newEdge = reader.nextLine();
         } while (!newEdge.equals("ENDGRAPH"));
